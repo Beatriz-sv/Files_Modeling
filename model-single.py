@@ -4,7 +4,7 @@ from modeller.automodel import *
 
 env = environ()
 a = automodel(env, alnfile='aligned.ali',
-              knowns='4eamA', sequence='target',
+              knowns='4eam_B', sequence='target',
               assess_methods=(assess.DOPE,
                               #soap_protein_od.Scorer(),
                               assess.GA341))
